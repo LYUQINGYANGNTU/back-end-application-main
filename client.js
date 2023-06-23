@@ -5,7 +5,7 @@ const { AzureCommunicationTokenCredential } = require('@azure/communication-comm
 const { AzureLogger, setLogLevel } = require("@azure/logger");
 const { CommunicationIdentityClient } = require('@azure/communication-identity');
 
-
+// 1.4.4
 // Set the log level and output
 setLogLevel('verbose');
 AzureLogger.log = (...args) => {
